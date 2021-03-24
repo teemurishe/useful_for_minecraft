@@ -4,11 +4,11 @@ import minecraftstuff as mcstuff
 
 mc = Minecraft.create()
 
-horsePos = mc.player.getTilePos()
-horsePos.z = horsePos.z + 1
-horsePos.y = horsePos.y + 1
+rocketPos = mc.player.getTilePos()
+rocketPos.z = rocketPos.z + 1
+rocketPos.y = rocketPos.y + 1
 
-blockSetter = mcstuff.MinecraftShape(mc, horsePos)
+blockSetter = mcstuff.MinecraftShape(mc, rocketPos)
 lava = 11
 ironBlock = 42
 
@@ -415,6 +415,6 @@ blockSetter.setBlock(0,36,0,ironBlock)
 
 for i in range(100):
    time.sleep(1)
-   horseShape.moveBy(0,1,0)
+   rocketShape.moveBy(0,1,0)
 
-horseShape.clear()
+rocketShape.clear()
