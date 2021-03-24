@@ -1,0 +1,233 @@
+[12:24:05] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[12:24:05] [Server thread/INFO]: Loading properties
+[12:24:05] [Server thread/INFO]: Default game type: CREATIVE
+[12:24:05] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1.7.9-R0.2-208-ge0f2e95 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[12:24:06] [Server thread/INFO]: Debug logging is disabled
+[12:24:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:24:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:24:06] [Server thread/INFO]: Generating keypair
+[12:24:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:24:08] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:24:08] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.5
+[12:24:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:24:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:24:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:24:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:24:08] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:24:08] [Server thread/INFO]: Preparing level "world"
+[12:24:08] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:24:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:24:08] [Server thread/INFO]: View Distance: 10
+[12:24:08] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:24:08] [Server thread/INFO]: Clear tick list: false
+[12:24:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:24:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:24:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:24:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:24:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:24:09] [Server thread/INFO]: Max Entity Collisions: 8
+[12:24:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:24:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:24:09] [Server thread/INFO]: Alternative Hopper Ticking: false
+[12:24:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:24:09] [Server thread/INFO]: Mob Spawn Range: 4
+[12:24:09] [Server thread/INFO]: Sending up to 5 chunks per packet
+[12:24:09] [Server thread/INFO]: Anti X-Ray: true
+[12:24:09] [Server thread/INFO]: 	Engine Mode: 1
+[12:24:09] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:24:09] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:24:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:24:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:24:09] [Server thread/INFO]: Random Lighting Updates: false
+[12:24:09] [Server thread/INFO]: Structure Info Saving: true
+[12:24:09] [Server thread/INFO]: Max TNT Explosions: 100
+[12:24:09] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:24:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:24:09] [Server thread/INFO]: View Distance: 10
+[12:24:09] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:24:09] [Server thread/INFO]: Clear tick list: false
+[12:24:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:24:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:24:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:24:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:24:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:24:09] [Server thread/INFO]: Max Entity Collisions: 8
+[12:24:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:24:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:24:09] [Server thread/INFO]: Alternative Hopper Ticking: false
+[12:24:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:24:09] [Server thread/INFO]: Mob Spawn Range: 4
+[12:24:09] [Server thread/INFO]: Sending up to 5 chunks per packet
+[12:24:09] [Server thread/INFO]: Anti X-Ray: true
+[12:24:09] [Server thread/INFO]: 	Engine Mode: 1
+[12:24:09] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:24:09] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:24:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:24:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:24:09] [Server thread/INFO]: Random Lighting Updates: false
+[12:24:09] [Server thread/INFO]: Structure Info Saving: true
+[12:24:09] [Server thread/INFO]: Max TNT Explosions: 100
+[12:24:09] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:24:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:24:09] [Server thread/INFO]: View Distance: 10
+[12:24:09] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:24:09] [Server thread/INFO]: Clear tick list: false
+[12:24:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:24:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:24:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:24:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:24:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:24:09] [Server thread/INFO]: Max Entity Collisions: 8
+[12:24:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:24:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:24:09] [Server thread/INFO]: Alternative Hopper Ticking: false
+[12:24:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:24:09] [Server thread/INFO]: Mob Spawn Range: 4
+[12:24:09] [Server thread/INFO]: Sending up to 5 chunks per packet
+[12:24:09] [Server thread/INFO]: Anti X-Ray: true
+[12:24:09] [Server thread/INFO]: 	Engine Mode: 1
+[12:24:09] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:24:09] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:24:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:24:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:24:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:24:09] [Server thread/INFO]: Random Lighting Updates: false
+[12:24:09] [Server thread/INFO]: Structure Info Saving: true
+[12:24:09] [Server thread/INFO]: Max TNT Explosions: 100
+[12:24:09] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2571653349717234336)
+[12:24:10] [Server thread/INFO]: Preparing spawn area: 0%
+[12:24:11] [Server thread/INFO]: Preparing spawn area: 3%
+[12:24:12] [Server thread/INFO]: Preparing spawn area: 24%
+[12:24:13] [Server thread/INFO]: Preparing spawn area: 70%
+[12:24:14] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2571653349717234336)
+[12:24:15] [Server thread/INFO]: Preparing spawn area: 50%
+[12:24:16] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2571653349717234336)
+[12:24:17] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.5
+[12:24:17] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[12:24:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:24:17] [Server thread/INFO]: Done (8,696s)! For help, type "help" or "?"
+[12:25:04] [User Authenticator #1/INFO]: UUID of player TimurMats is f58a043b-dcda-3257-9f3f-f3fc40844147
+[12:25:04] [Server thread/INFO]: TimurMats[/25.31.126.8:52619] logged in with entity id 334 at ([world] 263.5, 62.0, 265.5)
+[12:25:39] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[12:25:39] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+[12:25:39] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+[12:25:39] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[12:25:39] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/achievement: [0;37;1mGives the specified player an achievement or changes a statistic value. Use '*' to give all achievements.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mPrevents the specified player from using this server[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mClears the player's inventory. Can specify item and data filters too.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mAdds enchantments to the item the player is currently holding. Specify 0 for the level to remove an enchantment. Specify force to ignore normal enchantment restrictions[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mChanges the player to a specific game mode[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/give: [0;37;1mGives the specified player a certain amount of items[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mRemoves the specified player from the server[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mCommits suicide, only usable as a player[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/list: [0;37;1mLists all online players[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/me: [0;37;1mPerforms the specified action in chat[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:achievement: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:ban: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:ban-ip: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:banlist: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:clear: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:defaultgamemode: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:deop: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:difficulty: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:effect: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:enchant: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:gamemode: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:gamerule: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:give: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:kick: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:kill: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:list: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:me: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:op: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:pardon: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:pardon-ip: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:playsound: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:say: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:scoreboard: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:seed: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:setidletimeout: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:setworldspawn: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:spawnpoint: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:spreadplayers: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:testfor: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:time: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:toggledownfall: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:tp: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:weather: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:whitelist: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/minecraft:xp: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/netstat: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mAllows the specified player to use this server[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/restart: [0;37;1mRestarts the server[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/say: [0;37;1mBroadcasts the given message as the sender[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mShows the world seed[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mSets the server's idle timeout[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mSets a worlds's spawn point. If no coordinates are specified, the player's coordinates will be used.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mSends a private message to the given player[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/time: [0;37;1mChanges the time on each world[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mTeleports the given player (or yourself) to another player or coordinates[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mChanges the weather[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+[12:25:39] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mGives the specified player a certain amount of experience. Specify <amount>L to give levels instead, with a negative amount resulting in taking levels.[m
+[12:27:01] [Server thread/INFO]: TimurMats lost connection: Disconnected
+[12:27:01] [Server thread/INFO]: TimurMats left the game.
+[12:27:06] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[12:27:06] [Server thread/INFO]: Stopping server
+[12:27:06] [Server thread/INFO]: [RaspberryJuice] Disabling RaspberryJuice v1.5
+[12:27:06] [Server thread/INFO]: [RaspberryJuice] Raspberry Juice Stopped
+[12:27:06] [Server thread/INFO]: Saving players
+[12:27:06] [Server thread/INFO]: Saving worlds
+[12:27:06] [Server thread/INFO]: Saving chunks for level 'world'/Overworld

@@ -1,0 +1,3 @@
+
+# updated 02.01.21 10:38 by minecraft 1.5.2
+# victim name | ban date | banned by | banned until | reason
