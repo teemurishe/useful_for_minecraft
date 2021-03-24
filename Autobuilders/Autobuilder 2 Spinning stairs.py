@@ -4,22 +4,24 @@ mc = Minecraft.create()
 
 pos = mc.player.getTilePos()
 
-starter = input('Вы запустили программу "Автостроитель", часть 2: "Поворот лестницы". Вы хотите построить и повернуть лестницу? Да/Нет: ')
+starter = input('"Autobuilder" started, part 2: "Spinning stairs". Do you want
+to continue? Yes/No: ')
 
-if starter == "Да":
-    print("Встаньте, пожалуйста, на то место, где Вы желаете построить лестницу. через 5 секунд Ваше положение будет считано.")
+if starter == "Yes":
+    print("Please, stand where you want to build stairs. You have 5 seconds
+    before your position would be recorded.")
     time.sleep(5)
     x = pos.x
     y = pos.y
     z = pos.z
-    print("Благодарим, Ваше положение считано, лестница сейчас будет построена! Вы можете отойти, чтобы наблюдать за процессом.")
+    print("Position recorded succesful! Please, wait...")
     time.sleep(2)
     mc.setBlock(x, y, z+1, 109)
-    povorot = input("Ваша лестница построена! Всё ли Вас устраивает? Вы желаете повернуть лестницу? Да/Нет: ")
-    if povorot == "Да":
+    povorot = input("Stairs built succesful! Do you want to spin it? Yes/No: ")
+    if povorot == "Yes":
         mc.setBlock(x, y, z + 1, 109, True)
-        print("Программа остановлена. Надеемся увидеть Вас снова!")
-    if povorot =="Нет":
-        print("Программа остановлена. Надеемся увидеть Вас снова!")
-if starter == "Нет":
-    print("Программа остановлена. Надеемся увидеть Вас снова!")
+        print("Program stopped. Hope to see you again!")
+    if povorot =="No":
+        print("Program stopped. Hope to see you again!")
+if starter == "No":
+    print("Program stopped. Hope to see you again!")
