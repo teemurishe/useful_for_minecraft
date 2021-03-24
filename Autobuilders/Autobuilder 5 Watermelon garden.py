@@ -9,8 +9,9 @@ def makeMelon():
     z = pos.z
     mc.setBlock(x, y - 1, z, 103)
 
-starter = input('Вы запустили программу "Автостроитель", часть 5: "Арбузная грядка". Желаете ли вы построить небольшую грядку арбузов около себя? Да/Нет: ')
-if starter == "Да":
+starter = input('"Autobuilder" started, part 4: "Watermelon garden". Do you want
+to continue? Yes/No: ')
+if starter == "Yes":
     makeMelon()
     time.sleep(10)
     makeMelon()
@@ -22,8 +23,8 @@ if starter == "Да":
     makeMelon()
     time.sleep(10)
     makeMelon()
-    mc.postToChat("Грядка построена рядом с Вами! Благодарим за использование программы и надеемся увидеть Вас снова!")
+    mc.postToChat("Garden built succesful! Hope to see you again!")
 if starter == "Нет":
-    print("Программа остановлена. Надеемся увидеть Вас снова!")
+    print("Program stopped. Hope to see you again!")
 else:
-    print("Некорректный ответ. Пожалуйста, введите один из предложенных вариантов. Программа остановлена.")
+    print("Incorrect choice. Please, try again. Program stopped!")
