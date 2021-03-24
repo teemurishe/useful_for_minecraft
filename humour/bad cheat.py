@@ -7,18 +7,21 @@ y = pos.y
 z = pos.z
 
 nedoalmaz = 10
-answer = input("Поздравляем! Чит активирован успешно! Вы желаете продолжить? (Да/Нет): ")
-mc.postToChat("Поздравляем! Чит активирован успешно! Вы желаете продолжить? (Да/Нет) Для продолжения используйте консоль Python")
+answer = input("Congratulations! Cheat activated! Do you want to continue?
+(Yes/No): ")
+mc.postToChat("Congratulations! Cheat activated! Do you want to continue?
+(Yes/No) Use Python Console to contiue")
 
-if answer == "Да":
-    print("ВНИМАНИЕ!!! Чтобы чит сработал, необходимо встать на поверхность и выключить режим полёта и другие читы")
-    mc.postToChat("ВНИМАНИЕ!!! Чтобы чит сработал, необходимо встать на поверхность и выключить режим полёта и другие читы")
-    w = int(input("Введите ширину жилы алмазной руды: "))
-    h = int(input("Введите высоту жилы алмазной руды: "))
-    l = int(input("Введите длину жилы алмазной руды: "))
+if answer == "Yes":
+    print("WARNING!!! To proceed, please, turn off other cheats!")
+    mc.postToChat("WARNING!!! To proceed, please, turn off other cheats!")
+    w = int(input("Enter width of diamond ore: "))
+    h = int(input("Enter height of diamond ore: "))
+    l = int(input("Enter length of diamond ore: "))
     mc.setBlocks(x, y, z, x+w, y+h, z+l, nedoalmaz)
-    mc.postToChat("Ой, дураааак...")
-elif answer == "Нет":
-    print("Поздравляем, ты не повёлся на лохотрон! Если бы ты ввёл да, ты бы умер :) Тест на принятие в Mojang Studios пройден успешно! Для окончательного подтверждения своего вступления в ряды программистов Minecraft переведите на счёт 4817 7602 2418 2786 сумму 50 рублей с комментарием: Finished succesful")
+    mc.postToChat("Are you stupid?..")
+elif answer == "No":
+    print("Congratulations, you are not stupid! To proceed acceptance to
+    programmists of Minecraft pay 50 rubles to 4817 7602 2418 2786 card")
 else:
-    print("Сбой программы. Перезапустите, пожалуйста, файл и укажите Ваш ответ: Да или Нет.")
+    print("Incorrect choice. Please, try again. Program stopped!")
