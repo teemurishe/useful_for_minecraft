@@ -1,12 +1,13 @@
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-starter = input('Вы запустили программу "Автостроитель", часть 1: "Дом-коробка". Желаете ли вы построить основу для дома? Да/Нет: ')
+starter = input('"Autobuilder" started, part 1: "Box-like house". Do you want
+to continue? Yes/No: ')
 
-if starter == "Да":
-    place = input("Желаете ли Вы построить дом возле себя или в другой точке? Рядом/Далеко: ")
-    if place == "Рядом":
-        print("Дом будет построен рядом с Вами. Ожидайте!")
+if starter == "Yes":
+    place = input("Where do you want to build the house? Near/Far away: ")
+    if place == "Near":
+        print("The house will be built near you right now! Please wait...")
         pos = mc.player.getTilePos()
         x = pos.x
         y = pos.y
@@ -19,11 +20,12 @@ if starter == "Да":
         mc.setBlocks(x, y, z, x + w, y + h, z + l, stone)
         mc.setBlocks(x + 1, y + 1, z + 1, x + w -1, y + h - 1, z + l - 1, air)
         mc.setBlocks(x + 1, y + 1, z + 1, 0)
-    if place == "Далеко":
-        print("Дом будет построен по координатам, которые Вы введёте далее. ВНИМАНИЕ!!! Координаты необходимо ввести по системе исчисления Python!")
-        x = int(input("Введите координату по оси X: "))
-        y = int(input("Введите координату по оси Y: "))
-        z = int(input("Введите координату по оси Z: "))
+    if place == "Far away":
+        print("The house will be built on the points you should enter right now.")
+        print('WARNING! You should use the Python numbering system!')
+        x = int(input("X position: "))
+        y = int(input("Y position: "))
+        z = int(input("Z position: "))
         stone = 1
         air = 0
         w = 5
@@ -32,5 +34,5 @@ if starter == "Да":
         mc.setBlocks(x, y, z, x + w, y + h, z + l, stone)
         mc.setBlocks(x + 1, y + 1, z + 1, x + w - 1, y + h - 1, z + l - 1, air)
         mc.setBlocks(x, y, z, x + w, y + h + 3, z + l, air)
-if starter == "Нет":
-    print("Программа остановлена. Надеемся увидеть Вас снова!")
+if starter == "No":
+    print("Program stopped. Hope to see you again!")
