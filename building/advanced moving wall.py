@@ -3,33 +3,36 @@ mc = Minecraft.create()
 import time
 import minecraftstuff
 import threading
-
+ 
 brick = 45
-
-
+ 
+ 
 def moveWall():
     pos = mc.player.getTilePos()
     wallPos = pos.clone()
-
+ 
     wallShape = minecraftstuff.MinecraftShape(mc, wallPos)
     wallShape.setBlocks(0, 0, 0, 0, 0, 9, brick)
-
+ 
     while True:
-        wallShape.moveBy(0, 1, 0)
+        wallShape.moveBy(0, 1, 0)     # Движение вверх
         time.sleep(1)
-        wallShape.moveBy(0, -1, 0)
+        wallShape.moveBy(0, -1, 0)    # Движение вверх
         time.sleep(1)
-
-
+ 
+ 
 def river():
     pos = mc.player.getTilePos()
-
+ 
+    # Получаем координаты платформы и перемещаем её
     bridgePos = pos.clone()
-
+ 
+    # форма для нашего моста
     bridgeShape = minecraftstuff.MinecraftShape(mc, bridgePos)
-
+ 
+    # заполняем досками форму
     bridgeShape.setBlocks(0, 0, 0, 3, 0, 3, 5)
-
+ 
     while True:
         for left in range(0, 10):
             bridgeShape.moveBy(1, 0, 0)
@@ -37,12 +40,12 @@ def river():
         for right in range(0, 10):
             bridgeShape.moveBy(-1, 0, 0)
             time.sleep(1)
-
-
+ 
+ 
 wall_t = threading.Thread(target=moveWall)
 wall_t.start()
-
+ 
 river_t = threading.Thread(target=river)
 river_t.start()
-
-mc.postToChat('This program started!')
+ 
+mc.postToChat('Эта команда запустилась')

@@ -9,4 +9,4 @@ z = pos.z
 
 highestBlockY = mc.getHeight(x, z)
 
-mc.postToChat("The player isn't on the floor: " + str(y-1 > highestBlockY))
+mc.postToChat("Игрок над землёй: " + str(y-1 > highestBlockY))

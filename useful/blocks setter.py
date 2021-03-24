@@ -2,11 +2,11 @@ from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
 try:
-    x = int(input("X position: "))
-    y = int(input("Y position: "))
-    z = int(input("Z position: "))
-    block = int(input("Block ID: "))
-    w = int(input("Length of side of cube: "))
+    x = int(input("Введите местоположение точки для телпортации по оси X: "))
+    y = int(input("Введите местоположение точки для телпортации по оси Y: "))
+    z = int(input("Введите местоположение точки для телпортации по оси Z: "))
+    block = int(input("Введите числовой ID желаемого блока для постройки кубика: "))
+    w = int(input("Введите длину стороны кубика, который хотите построить: "))
     h = w
     l = h
     mc.player.setPos(x, y, z)
@@ -16,5 +16,5 @@ try:
     z = pos.z
     mc.setBlocks(x, y, z, x + w, y + h, z + l, block)
 except:
-    mc.postToChat("One of the values are entered incorrectly. Please, try again")
-    print("One of the values are entered incorrectly. Please, try again")
+    mc.postToChat("Одно из значение (координата x, y, z, ID блока, длина стороны кубика) были записаны не в числовом формате. Проверьте написанное ещё раз и повторите попытку.")
+    print("Одно из значение (координата x, y, z, ID блока, длина стороны кубика) были записаны не в числовом формате. Проверьте написанное ещё раз и повторите попытку.")

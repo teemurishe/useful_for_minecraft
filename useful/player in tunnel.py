@@ -11,4 +11,4 @@ blockUnder = mc.getBlock(x,y-1,z)
 
 inTunnel = blockUnder != 0 and blockAbove != 0
 
-mc.postToChat("The player is in tunnel: " + str(inTunnel))
+mc.postToChat("Игрок в туннеле: " + str(inTunnel))

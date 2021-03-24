@@ -14,7 +14,7 @@ while count < 60:
     if pos.y < heights[0]:
         heights[0] = pos.y
     elif pos.y > heights[1]:
-  heights[1] = pos.y
+        heights[1] = pos.y
     
     count += 1
     time.sleep(1)

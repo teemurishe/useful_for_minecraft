@@ -16,42 +16,41 @@ def poppy():
 def diamond():
     return 57
 
-starter = input('"Autobuilder" started, part 6: "Blocks". Do you want
-to continue? Yes/No: ')
-if starter == "Да":
-    chooser = input("Choose block: Watermelon/Water/Shelf/Lava/TNT/Poppy/Diamond")
-    if chooser == "Watermelon":
+starter = input('Вы запустили программу "Автостроитель", часть 6: "Блоки". Желаете ли вы поставить какой-нибудь блок около себя? Да/Нет: ')
+if starter == "Да": 
+    chooser = input("Выберите блок: Арбуз/Вода/Полка/Лава/Динамит/Мак/Алмаз")
+    if chooser == "Арбуз":
         block = melon()
         pos = mc.player.getTilePos()
         mc.setBlock(pos.x, pos.y, pos.z, block)
-    elif chooser == "Water":
+    elif chooser == "Вода":
         block = water()
         pos = mc.player.getTilePos()
         mc.setBlock(pos.x, pos.y, pos.z, block)
-    elif chooser == "Shelf":
+    elif chooser == "Полка":
         block = bookshelf()
         pos = mc.player.getTilePos()
         mc.setBlock(pos.x, pos.y, pos.z, block)
-    elif chooser == "Lava":
+    elif chooser == "Лава":
         block = lava()
         pos = mc.player.getTilePos()
         mc.setBlock(pos.x, pos.y, pos.z, block)
-    elif chooser == "TNT":
+    elif chooser == "Динамит":
         block = tnt()
         pos = mc.player.getTilePos()
         mc.setBlock(pos.x, pos.y, pos.z, block)
-    elif chooser == "Poppy":
+    elif chooser == "Мак":
         block = poppy()
         pos = mc.player.getTilePos()
         mc.setBlock(pos.x, pos.y, pos.z, block)
-    elif chooser == "Diamond":
+    elif chooser == "Алмаз":
         block = diamond()
         pos = mc.player.getTilePos()
         mc.setBlock(pos.x, pos.y, pos.z, block)
     else:
-      print("Incorrect choice. Please, try again. Program stopped!")
-
+      print("Введено некорректное имя блока. Программа остановлена. Пожалуйста, введите одно из предложенных наименований.")
+      
 elif starter == "Нет":
-        print("Program stopped. Hope to see you again!")
+        print("Программа остановлена. Надеемся увидеть Вас снова!")
 else:
-    print("Incorrect choice. Please, try again. Program stopped!")
+    print("Некорректный ответ. Пожалуйста, введите один из предложенных вариантов. Программа остановлена.")

@@ -2,41 +2,38 @@ from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
 def growTree(x, y, z):
-    mc.setBlocks(x,y,z, x,y+7,z, 17)
-    mc.setBlocks(x-3,y+8,z-3, x+3,y+8,z+3, 161)
-    mc.setBlocks(x-2,y+9,z-2, x+2,y+9,z+2, 161)
+    mc.setBlocks(x,y,z, x,y+7,z, 17)            #Ствол дерева
+    mc.setBlocks(x-3,y+8,z-3, x+3,y+8,z+3, 161) #1-ый слой листвы
+    mc.setBlocks(x-2,y+9,z-2, x+2,y+9,z+2, 161) #2-ой слой листвы
 
-starter = input('"Autobuilder" started, part 4: "Forest buider". Do you want
-to continue? Yes/No: ')
+starter = input('Вы запустили программу "Автостроитель", часть 4: "Лесостроитель". Желаете ли вы построить небольшой лес? Да/Нет: ')
 
-if starter == "Yes":
-    asker = ("Where do you want to build the house? Near/Far away: ")
-    if asker == "Near":
+if starter == "Да":
+    asker = ("Желаете ли Вы построить лес рядом с собой или по другим координатам? Рядом/Далеко")
+    if asker == "Рядом":
         pos = mc.player.getTilePos()
         x = pos.x
         y = pos.y
         z = pos.z
-
+        
         growTree(x + 1, y, z)
         growTree(x + 5, y, z)
         growTree(x + 1, y, z + 5)
         growTree(x + 5, y, z + 5)
-        mc.postToChat("Forest built succesful! Thanks for using and hope to see
-        you again!")
-    elif asker == "Far away":
-        x = input("X position: ")
-        y = input("Y  position: ")
-        z = input("Z  position: ")
-
+        mc.postToChat("Лес построен рядом с Вами! Благодарим за использование программы и надеемся увидеть Вас снова!")
+    elif asker == "Далеко":
+        x = input("Введите координату по оси X: ")
+        y = input("Введите координату по оси Y: ")
+        z = input("Введите координату по оси Z: ")
+        
         growTree(x + 1, y, z)
         growTree(x + 5, y, z)
         growTree(x + 1, y, z + 5)
         growTree(x + 5, y, z + 5)
-        mc.postToChat("Forest built succesful! Thanks for using and hope to see
-        you again!")
+        mc.postToChat("Лес построен по указанным координатам! Благодарим за использование программы и надеемся увидеть Вас снова!")
     else:
-        print("Incorrect choice. Please, try again. Program stopped!")
-elif starter == "No":
-    print("Program stopped. Hope to see you again!")
+        print("Некорректный ответ. Пожалуйста, введите один из предложенных вариантов. Программа остановлена.")
+elif starter == "Нет":
+    print("Программа остановлена. Надеемся увидеть Вас снова!")
 else:
-    print("Incorrect choice. Please, try again. Program stopped!")
+    print("Некорректный ответ. Пожалуйста, введите один из предложенных вариантов. Программа остановлена.")

@@ -1,10 +1,9 @@
 import time
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
-starter = input('"Autobuilder" started, part 7: "Clock". Do you want
-to continue? Yes/No: ')
+starter = input('Вы запустили программу "Автостроитель", часть 7: "Часы". Желаете ли вы построить мини-часы около себя? Да/Нет: ')
 
-if starter == "Yes":
+if starter == "Да":
     pos = mc.player.getTilePos()
     x = pos.x + 1
     y = pos.y
@@ -13,7 +12,7 @@ if starter == "Yes":
     lazuli = 22
     glass = 20
     count = 0
-    mc.postToChat("Clock built succesful! TO stop them, close Python interpreter")
+    mc.postToChat("Часы построены успешно! Они будут работать вечно, пока программа не будет остановлена...")
     while True:
         while count <= len(blocks):
            mc.setBlock(x, y , z, blocks[0])
@@ -31,9 +30,9 @@ if starter == "Yes":
            del blocks[-1]
            blocks.insert(0, lazuli)
            time.sleep(1)
-
-
-elif starter == "No":
-    print("Program stopped. Hope to see you again!")
+    
+       
+elif starter == "Нет":
+    print("Программа остановлена. Надеемся увидеть Вас снова!")
 else:
-    print("Incorrect choice. Please, try again. Program stopped!")
+    print("Некорректный ответ. Пожалуйста, введите один из предложенных вариантов. Программа остановлена.")

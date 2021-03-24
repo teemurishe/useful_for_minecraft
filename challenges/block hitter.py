@@ -7,4 +7,4 @@ time.sleep(60)
 blockHits = mc.events.pollBlockHits
 count = len(blockHits)
 
-mc.postToChat("Your score: " + str(count))
+mc.postToChat("Ваш счёт: " + str(count))
