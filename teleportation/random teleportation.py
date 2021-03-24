@@ -4,9 +4,9 @@ import random
 import time
 
 pos = mc.player.getTilePos()
-mc.postToChat("Ваше текущее местоположение:")
+mc.postToChat("Your position at the moment:")
 mc.postToChat(pos)
-mc.postToChat("До телепортации в случайное место осталось 5 секунд")
+mc.postToChat("5 second to teleportation...")
 time.sleep(5)
 
 x = random.randint(1, 10000)
@@ -34,6 +34,6 @@ yn = yb+1
 zn = zb+2
 mc.player.setPos(xn, yn, zn)
 
-mc.postToChat("Вы были успешно телепортированы по координатам:")
+mc.postToChat("Teleportation succesful! Your new position:")
 posf = mc.player.getTilePos()
 mc.postToChat(posf)
