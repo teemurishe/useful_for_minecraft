@@ -2,8 +2,9 @@ import pickle
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-mc.postToChat('Вы запустили программу "Автостроитель", часть 10: "Копир строений". Желаете ли вы прочитать здание из файла? Да/Нет: ')
-fileName = input('Введите имя файла с раширением, в который записано строение: ')
+mc.postToChat('"Autobuilder" started, part 10: "Copy buildings". Do you want
+to continue? Yes/No: ')
+fileName = input('Enter the name of the file with buildings: ')
 
 def buildStructure(x, y, z, structure):
    xStart = x
@@ -28,4 +29,4 @@ z = pos.z
 buildStructure(x, y, z, structure)
 pickleFile.close()
 
-print("Программа остановлена. Благодарим Вас за использование юбилейного выпуска Автостроителя и ждём Вас снова!")
+print("Program stopped. Hope to see you again!")

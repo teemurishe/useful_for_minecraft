@@ -2,7 +2,8 @@ import shelve
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-mc.postToChat('Вы запустили программу "Автостроитель", часть 11: "Продвинутый копир строений". Желаете ли вы считать Ваши строения из файла? Да/Нет: ')
+mc.postToChat('"Autobuilder" started, part 9: "Advanced copy buildings". Do you want
+to continue? Yes/No: ')
 
 
 def buildStructure(x, y, z, structure):
@@ -20,7 +21,7 @@ def buildStructure(x, y, z, structure):
 
 structureDictionary = shelve.open("shelveFile.db")
 
-structureName = input("Введите имя конструкции: ")
+structureName = input("Name of the building: ")
 
 pos = mc.player.getTilePos()
 x = pos.x
@@ -29,4 +30,4 @@ z = pos.z
 
 buildStructure(x, y, z, structureDictionary[structureName])
 
-print("Программа остановлена. Благодарим за использование и ждём Вас снова!")
+print("Program stopped. Hope to see you again!")

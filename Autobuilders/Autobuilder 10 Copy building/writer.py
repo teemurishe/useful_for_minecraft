@@ -2,7 +2,8 @@ import pickle
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-mc.postToChat('Вы запустили программу "Автостроитель", часть 10: "Копир строений". Желаете ли вы записать здание в файл? Да/Нет: ')
+mc.postToChat('"Autobuilder" started, part 10: "Copy buildings". Do you want
+to continue? Yes/No: ')
 
 def sortPair(val1, val2):
    if val1 > val2:
@@ -18,7 +19,7 @@ def copyStructure(x1, y1, z1, x2, y2, z2):
    height = y2 - y1
    length = z2 - z1
    structure = []
-   print("Пожалуйста, подождите…")
+   print("Please, wait...")
 
    for row in range(height):
        structure.append([])
@@ -29,19 +30,19 @@ def copyStructure(x1, y1, z1, x2, y2, z2):
                structure[row][column].append(block)
    return structure
 
-input("Пройдите к первому углу и нажмите Enter в этом окне")
+input("Go to the first angle and press Enter in this window")
 pos = mc.player.getTilePos()
 x1, y1, z1 = pos.x, pos.y, pos.z
 
-input("Пройдите к противоположному углу и нажмите Enter в этом окне")
+input("Go to the second angle and press Enter in this window")
 pos = mc.player.getTilePos()
 x2, y2, z2 = pos.x, pos.y, pos.z
 
-print("Копируем в файл")
+print("Copying to file...")
 structure = copyStructure(x1, y1, z1, x2, y2, z2)
 
-fileName = input('Введите желаемое имя файла: ')
+fileName = input('Name the file: ')
 pickleFile = open(fileName, "wb")
 pickle.dump(structure, pickleFile)
 
-print("Программа остановлена. Пожалуйста, откройте следующую часть данного выпуска Автостроителя.")
+print("Program stopped. Hope to see you again!")
