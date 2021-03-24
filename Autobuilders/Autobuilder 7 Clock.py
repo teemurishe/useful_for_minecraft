@@ -1,7 +1,8 @@
 import time
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
-starter = input('Вы запустили программу "Автостроитель", часть 7: "Часы". Желаете ли вы построить мини-часы около себя? Да/Нет: ')
+starter = input('"Autobuilder" started, part 7: "Blocks". Do you want
+to continue? Yes/No: ')
 
 if starter == "Да":
     pos = mc.player.getTilePos()
@@ -12,7 +13,8 @@ if starter == "Да":
     lazuli = 22
     glass = 20
     count = 0
-    mc.postToChat("Часы построены успешно! Они будут работать вечно, пока программа не будет остановлена...")
+    mc.postToChat("Часы построены успешно! Они будут работать вечно, пока
+    программа не будет остановлена...")
     while True:
         while count <= len(blocks):
            mc.setBlock(x, y , z, blocks[0])
@@ -30,8 +32,8 @@ if starter == "Да":
            del blocks[-1]
            blocks.insert(0, lazuli)
            time.sleep(1)
-    
-       
+
+
 elif starter == "Нет":
     print("Программа остановлена. Надеемся увидеть Вас снова!")
 else:
