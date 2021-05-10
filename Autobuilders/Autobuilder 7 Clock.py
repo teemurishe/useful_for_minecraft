@@ -1,7 +1,7 @@
 import time
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
-starter = input('"Autobuilder" started, part 7: "Clock". Do you want
+starter = input('"Autobuilder" started, part 7: "Clock". Do you want\
 to continue? Yes/No: ')
 
 if starter == "Yes":
@@ -13,7 +13,7 @@ if starter == "Yes":
     lazuli = 22
     glass = 20
     count = 0
-    mc.postToChat("Clock built succesful! TO stop them, close Python interpreter")
+    mc.postToChat("Clock built succesful! To stop them, close Python interpreter")
     while True:
         while count <= len(blocks):
            mc.setBlock(x, y , z, blocks[0])
