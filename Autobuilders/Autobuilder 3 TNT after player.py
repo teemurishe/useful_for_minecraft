@@ -2,11 +2,11 @@ import time
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-starter = input('"Autobuilder" started, part 3: "TNT road". Do you want
+starter = input('"Autobuilder" started, part 3: "TNT road". Do you want\
 to continue? Yes/No: ')
 
 if starter == "Yes":
-    print("Please, stand where you want to start the road. It would be built
+    print("Please, stand where you want to start the road. It would be built\
     behind you. 15 seconds left to the beginning!")
     print('To stop this, just close Python console.')
     time.sleep(15)
