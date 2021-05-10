@@ -9,13 +9,13 @@ z = pos.z
 
 print(pos)
 
-mc.postToChat("I'm Watermelonner, the watermelons' God! I'm going to take your
-money! Where is your table, slave? Open the portal, that you call the console!")
+mc.postToChat("I'm Watermelonner, the watermelons' God! I'm going to take your\
+money! Where is your altar, slave? Open the portal, that you call the console!")
 ax = int(input("What is its position along the first earthly horizontal? "))
 ay = int(input("And what is his position in the heights of heaven? "))
 az = int(input("Well, how does it lie in unearthly length? "))
 gift = mc.getBlock(ax, ay + 1, az)
-print("I see your table, put your gift on it! 10 seconds for you to bring an
+print("I see your table, put your gift on it! 10 seconds for you to bring an\
 offering! Time is going ...")
 time.sleep(10)
 if gift != 0:
