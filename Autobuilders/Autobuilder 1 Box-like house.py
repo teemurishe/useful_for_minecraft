@@ -1,7 +1,7 @@
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-starter = input('"Autobuilder" started, part 1: "Box-like house". Do you want
+starter = input('"Autobuilder" started, part 1: "Box-like house". Do you want\
 to continue? Yes/No: ')
 
 if starter == "Yes":
