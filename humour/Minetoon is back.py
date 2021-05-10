@@ -6,8 +6,8 @@ mc = Minecraft.create()
 pos = mc.player.getPos()
 x, y, z = pos.x, pos.y, pos.z
 
-mc.postToChat("Me, The God of water, Minetoon is here again! Where are your money?!
- Stupid human, now you won't walk comfortably!")
+mc.postToChat("Me, The God of water, Minetoon is here again! Where is toll?!\
+ Stupid human, you won't walk as usual anymore!")
 while True:
    mc.setBlock(x, y, z, 38.0)
    x += random.uniform(-0.2, 0.2)
