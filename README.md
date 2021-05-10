@@ -1,10 +1,5 @@
 # useful_for_minecraft
-Some useful utilies for Minecraft on Python. mcpi module needed to work correctly. Translation to English soon. while 
-creating this, didn't know about the Git system.
-All the programs are sorted by genre: humour, building, final project, etc. To enjoy this project, you should install 
-mcpi module using pip. Everything (except the server) is written by me on Python 3. The 'Server_GB' folder contains the 
-'start.bat' and 'start.sh' files to start server's work on Windows and Linux. The Minecraft version can be changed by 
-replacing the Spigot core file. There are 1.2.5, 1.5.2 and 1.7.10 versions' cores in folder. To change the game version, 
-you should replace the 'craftbukkit-1.2.5-R5.1-SNAPSHOT.jar' to 'spigot-1.5.2-R1.1-SNAPSHOT.jar' 
-or 'spigot-1.7.10-SNAPSHOT-b1657.jar' for the indicated versions in start file for your system. 
-That's all! Have fun!
+Несколько полезных утилит для Minecraft на Python. Модуль mcpi должен быть установлен для корректной работы. Две ветки: русский и английский языки. Создавая проект, не знал о системе Git.
+Все программы отсортированы по жанрам: юмор, строительство, финальный проект и т. д. Для корректной работы необходимо установить модуль mcpi через pip. Все (кроме сервера) написано мной на Python 3.
+Папка Server_GB содержит файлы start.bat и start.sh для запуска сервера в Windows и Linux. Версия Minecraft может быть изменена путём замены основного файла Spigot. В папке находятся ядра версий 1.2.5, 1.5.2 и 1.7.10. Чтобы изменить версию игры, необходимо заменить «craftbukkit-1.2.5-R5.1-SNAPSHOT.jar» на «spigot-1.5.2-R1.1-SNAPSHOT.jar» или spigot-1.7.10-SNAPSHOT-b1657.jar для указанных версий в стартовом файле вашей системы.
+Это все! Приятного использования!
