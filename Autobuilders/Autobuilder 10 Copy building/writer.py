@@ -2,7 +2,7 @@ import pickle
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-mc.postToChat('"Autobuilder" started, part 10: "Copy buildings". Do you want
+mc.postToChat('"Autobuilder" started, part 10: "Copy buildings". Do you want\
 to continue? Yes/No: ')
 
 def sortPair(val1, val2):
