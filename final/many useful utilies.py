@@ -5,14 +5,14 @@ import random
 mc = Minecraft.create()
 
 print(
-    'Добро пожаловать в набор утилит для строительства, перемещение, и многого другого в Майнкрафте! Пожалуйста, выберите утилиту из предложенного ниже списка:')
+    'Proudly presenting an utilities kit for Minecraft! Please, choose the instrument you need:')
 
-print('1. Поставка блока по Python-координатам')
-print('2. Постройка рядом с собой плоской поверхности заданных размеров')
-print('3. Возвращение на точку смерти')
-print('4. Телепортация в рандомную точку мира')
-print('5. Телепортер по системе Python')
-print('6. ВЗРЫВАТЕЛЬ!!!')
+print('1. Block setting using Python-coordinates')
+print('2. Flat surface building')
+print('3. Teleport to death place')
+print('4. Random teleportation')
+print('5. Teleportation using Python coordinates')
+print('6. EXPLODE EVERYTHING!!!')
 
 
 def beginProgramm():
@@ -20,10 +20,10 @@ def beginProgramm():
 
 
 def blockSetter():
-    x = int(input("Координата по оси X: "))
-    y = int(input("Координата по оси Y: "))
-    z = int(input("Координата по оси Z: "))
-    id = int(input("ID блока: "))
+    x = int(input("X coordinate: "))
+    y = int(input("Y coordinate: "))
+    z = int(input("Z coordinate: "))
+    id = int(input("Block ID: "))
     mc.setBlock(x, y, z, id)
 
 
@@ -32,7 +32,7 @@ def flatPattern():
     x, y, z = pos.x, pos.y, pos.z
     air, grass = 0, 2
 
-    aw = int(input("Длина стороны плоскости: "))
+    aw = int(input("Flat area's side length: "))
     ah, al = 256, aw
     gw.gh, gl = al, 1, gw
 
@@ -42,14 +42,14 @@ def flatPattern():
 
 def deathSaver():
     pos = mc.player.getTilePos()
-    print('Точка телепортации: ' + str(pos))
+    print('Teleportation coordinates: ' + str(pos))
     time.sleep(2)
     mc.player.setTilePos(pos)
 
 
 def randTeport():
     pos = mc.player.getTilePos()
-    mc.postToChat('Ваша текущая позиция: ' + str(pos))
+    mc.postToChat('Your current position: ' + str(pos))
 
     x = random.randint(1, 10000)
     y = random.randint(50, 80)
@@ -66,18 +66,18 @@ def randTeport():
     mc.player.setPos(xn, yn, zn)
 
     posf = mc.player.getTilePos()
-    mc.postToChat('Ваша новая позиция по системе Python: ' + str(posf))
+    mc.postToChat('Your new position in Python coordinates: ' + str(posf))
 
 
 def pyTeleport():
-    x = int(input("Координата по оси X: "))
-    y = int(input("Координата по оси Y: "))
-    z = int(input("Координата по оси Z: "))
+    x = int(input("X coordinate: "))
+    y = int(input("Y coordinate: "))
+    z = int(input("Z coordinate: "))
     mc.player.setTilePos(x, y, z)
 
 
 def tntSetter():
-    mc.postToChat("Встаньте на точку, где желаете соверщить взрыв. Ваши координаты будут записаны через 5 секунд.")
+    mc.postToChat("Please, get placed to the explosion place. 5 seconds to getting your current position...")
     time.sleep(5)
     pos = mc.player.getTilePos()
     x = pos.x
@@ -85,20 +85,18 @@ def tntSetter():
     z = pos.z
     tnt = 46
     fire = 51
-    mc.postToChat(
-        "ВНИМАНИЕ!!! Чтобы избежать зависаний в игре, отлетите на примерно 20-50 блоков и наслаждайтесь зрелищем! Ваши координаты уже записаны, поэтому взрывной кубик появится там, где Вы стояли ранее :)")
-    print(
-        "ВНИМАНИЕ!!! Чтобы избежать зависаний в игре, отлетите на примерно 20-50 блоков и наслаждайтесь зрелищем! Ваши координаты уже записаны, поэтому взрывной кубик появится там, где Вы стояли ранее :)")
-    w = int(input('Сторона взрывного кубика: '))
+    mc.postToChat("WARNING!!! To avoid bugs, get away on 20-50 blocks and enjoy the sught! Your coordinates are got succesful :)")
+    print("WARNING!!! To avoid bugs, get away on 20-50 blocks and enjoy the sught! Your coordinates are got succesful :)")
+    w = int(input('TNT cube\'s side length: '))
     h = w
     l = h
     mc.setBlocks(x, y, z, x + w, y + h, z + l, tnt)
     mc.setBlock(x + 1, y + 1, z + 1, fire)
 
 
-while True:
-    choice = input('Выберите утилиту: ')
-    print('Чтобы завершить работу с пакетом утилит, введите "Стоп"')
+while choice != 'Stop':
+    choice = input('Choose utilite: ')
+    print('To finish work with kit, enter "Stop"')
 
     if choice == '1':
         blockSetter()
