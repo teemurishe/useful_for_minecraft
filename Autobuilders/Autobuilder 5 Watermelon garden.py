@@ -9,7 +9,7 @@ def makeMelon():
     z = pos.z
     mc.setBlock(x, y - 1, z, 103)
 
-starter = input('"Autobuilder" started, part 5: "Watermelon garden". Do you want
+starter = input('"Autobuilder" started, part 5: "Watermelon garden". Do you want\
 to continue? Yes/No: ')
 if starter == "Yes":
     makeMelon()
