@@ -6,7 +6,7 @@ def growTree(x, y, z):
     mc.setBlocks(x-3,y+8,z-3, x+3,y+8,z+3, 161)
     mc.setBlocks(x-2,y+9,z-2, x+2,y+9,z+2, 161)
 
-starter = input('"Autobuilder" started, part 4: "Forest buider". Do you want
+starter = input('"Autobuilder" started, part 4: "Forest buider". Do you want\
 to continue? Yes/No: ')
 
 if starter == "Yes":
@@ -21,7 +21,7 @@ if starter == "Yes":
         growTree(x + 5, y, z)
         growTree(x + 1, y, z + 5)
         growTree(x + 5, y, z + 5)
-        mc.postToChat("Forest built succesful! Thanks for using and hope to see
+        mc.postToChat("Forest built succesful! Thanks for using and hope to see\
         you again!")
     elif asker == "Far away":
         x = input("X position: ")
@@ -32,7 +32,7 @@ if starter == "Yes":
         growTree(x + 5, y, z)
         growTree(x + 1, y, z + 5)
         growTree(x + 5, y, z + 5)
-        mc.postToChat("Forest built succesful! Thanks for using and hope to see
+        mc.postToChat("Forest built succesful! Thanks for using and hope to see\
         you again!")
     else:
         print("Incorrect choice. Please, try again. Program stopped!")
