@@ -16,7 +16,7 @@ def poppy():
 def diamond():
     return 57
 
-starter = input('"Autobuilder" started, part 6: "Blocks". Do you want
+starter = input('"Autobuilder" started, part 6: "Blocks". Do you want\
 to continue? Yes/No: ')
 if starter == "Да":
     chooser = input("Choose block: Watermelon/Water/Shelf/Lava/TNT/Poppy/Diamond")
