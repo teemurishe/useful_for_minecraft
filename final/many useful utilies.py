@@ -96,7 +96,7 @@ def tntSetter():
     mc.setBlock(x + 1, y + 1, z + 1, fire)
 
 
-while True:
+while choice != 'Stop':
     choice = input('Выберите утилиту: ')
     print('Чтобы завершить работу с пакетом утилит, введите "Стоп"')
 
