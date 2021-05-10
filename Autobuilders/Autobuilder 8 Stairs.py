@@ -1,7 +1,7 @@
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-mc.postToChat('"Autobuilder" started, part 8: "Stairs". Do you want
+mc.postToChat('"Autobuilder" started, part 8: "Stairs". Do you want\
 to continue? Yes/No: ')
 
 pos = mc.player.getTilePos()
