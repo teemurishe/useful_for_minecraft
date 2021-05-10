@@ -1,6 +1,5 @@
 # useful_for_minecraft
-Some useful utilies for Minecraft on Python. mcpi module needed to work correctly. Translation to English soon. while 
-creating this, didn't know about the Git system.
+Some useful utilities for Minecraft on Python. Mcpi module needed to work correctly. Two branches: Russian and English languages. While creating this, didn't know about the Git system.
 All the programs are sorted by genre: humour, building, final project, etc. To enjoy this project, you should install 
 mcpi module using pip. Everything (except the server) is written by me on Python 3. The 'Server_GB' folder contains the 
 'start.bat' and 'start.sh' files to start server's work on Windows and Linux. The Minecraft version can be changed by 
