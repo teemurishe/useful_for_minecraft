@@ -2,7 +2,7 @@ import shelve
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-mc.postToChat('"Autobuilder" started, part 9: "Advanced copy buildings". Do you want
+mc.postToChat('"Autobuilder" started, part 9: "Advanced copy buildings". Do you want\
 to continue? Yes/No: ')
 
 
